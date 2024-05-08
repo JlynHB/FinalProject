@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(57, 56, 56);
+ 
+}
+
+img {
+    border-radius: 45px;
+}
+
+header {
+    border: solid rgb(255, 133, 227) 0.1em;
+    
+}
+
+li {
+    padding: 1.5em;
+    padding-top: 3em;
+    /* padding-bottom: 1em; */
+
+  
+   
+}
+
+nav {
+    background-color: rgb(57, 56, 56);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+    color: rgb(255, 133, 227);
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+a {
+    
+    text-decoration: dotted;
+    font-size: 2rem;
+    padding: 0.5em;
+
+    color: rgb(255, 133, 227);
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* .nail-bg {
+ width: 40em;
+} */
+
+.nail-title {
+    font-size: 4rem;
+    padding-top: 0.3em;
+    font-family: Bebas Neue;
+    
+}
+
+.header-text {
+    color: white;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1em;
+
+}
+
+.gallery {
+    background-color: rgb(26, 26, 26);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nail-gallery {
+
+    width: 30em;
+    padding: 2em;
+}
+
+.service {
+    background-color: rgb(31, 31, 31);
+}
+
+.book-service-size {
+    font-family: Bebas Neue;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding-top: 1.5em;
+}
+
+.contact {
+    /* font-family: Bebas Neue; */
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+ 
+}
+
+button {
+    align-items: center;
+    font-size: 2rem;
+    padding: 0.4em;
+    margin: 0;
+    background-color: rgb(255, 133, 227);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Bebas Neue;
+    transition-duration: 0.3s;
+ 
+}
+
+button:hover {
+    background-color: rgb(255, 197, 235);
+    color: rgb(76, 43, 112);
+}
+
+.book-button {
+    text-align: center;
+    padding: 2em 2em;
+}
+
+.book-nav {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(57, 56, 56);
+    color: white;
+    padding: 2em;
+}
+
+.our-gallery {
+    font-size: 4rem;
+    padding-top: 0.2em;
+    font-family: Bebas Neue;
+    color: rgb(232, 146, 190);
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+}
+.our-gallery-2 {
+    text-align: center;
+    font-size: 1.4rem;
+
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+.gallery-nail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: rgb(26, 26, 26);
+    padding-top: 5em;
+    padding-bottom: 3em;
+    border-radius: 5px;
+}
+
+.gal-nail {
+    border-radius: 45px;
+    padding: 1em;
+    width: 28em;
+    transition-duration: 0.3s;
+    /* border: solid pink 0.2em; */
+ 
+   
+}
+
+.gal-nail:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.nail-icon {
+    text-align: center;
+    padding-top: 6em;
+}
+.nail-icon2 {
+    width: 11em;
+    border-radius: 0px;
+}
+
+.faq {
+    background-color: rgb(26, 26, 26);
+}
+
+.faq-title {
+    color: rgb(232, 146, 190);
+    text-align: center;
+    font-size: 4rem;
+    padding: 2em;
+    font-family: Bebas Neue;
+}
+
+.faq-para2 {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    padding: 1em;
+    font-family: Bebas Neue;
+}
+
+.faq-para {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    padding-bottom: 2em;
+}
+
+.nav-book-now {
+    padding: 0.3em 0.4em;
+   
+    
+}
